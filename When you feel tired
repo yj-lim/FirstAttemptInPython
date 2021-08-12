@@ -1,0 +1,5 @@
+import random
+context = "When you feel tired, "
+action = ["you take a nap ","you go out for a jog ", "you drink coffee "]
+result = ["to wake up feeling refreshed.","to feel energised.","to get a caffeine rush."]
+print(context+random.choice(action)+random.choice(result))
