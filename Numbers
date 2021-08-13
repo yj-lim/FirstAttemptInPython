@@ -1,0 +1,19 @@
+first_num = 25.2
+second_num = 28.6
+sum = first_num + second_num
+print("sum =", sum)
+
+third_num = 7
+print(str(third_num)+" is a prime number.")
+fourth_num = -180
+print(abs(fourth_num))
+
+print(pow(45,3))
+print(max(78, 67))
+print(min(78,67))
+print(round(36.4))
+
+from math import *
+print(floor(36.4))
+print(ceil(36.4))
+print(sqrt(121))
