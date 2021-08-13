@@ -1,0 +1,13 @@
+gender = ["female, ","male, "]
+age = ["19, ","42, ","23, ","10, ","9, ","37, ","34, ","15, ","29, ","41, "]
+favourite_colour = ["blue, ","red, ","violet, ","green, ","yellow, ","orange, "]
+favourite_fruit = ["banana, ","apple, ","durian, ","grapes, ","mango, "]
+print(favourite_colour[1])
+print(len(favourite_colour))
+
+print(random.choice(gender)+random.choice(age)+random.choice(favourite_colour)+random.choice(favourite_fruit))
+
+print(random.sample(favourite_colour, k=3))
+
+random.shuffle(favourite_fruit)
+print(favourite_fruit)
