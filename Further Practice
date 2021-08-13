@@ -5,6 +5,7 @@ favourite_fruit = ["banana, ","apple, ","durian, ","grapes, ","mango, "]
 print(favourite_colour[1])
 print(favourite_colour[1:4])
 print(len(favourite_colour))
+print(favourite_fruit.index("apple, "))
 favourite_colour.extend(favourite_fruit)
 print(favourite_colour)
 
