@@ -5,6 +5,8 @@ favourite_fruit = ["banana, ","apple, ","durian, ","grapes, ","mango, "]
 print(favourite_colour[1])
 print(favourite_colour[1:4])
 print(len(favourite_colour))
+favourite_colour.extend(favourite_fruit)
+print(favourite_colour)
 
 print(random.choice(gender)+random.choice(age)+random.choice(favourite_colour)+random.choice(favourite_fruit))
 
