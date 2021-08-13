@@ -1,7 +1,8 @@
 gender = ["female, ","male, "]
-age = ["19, ","42, ","23, ","10, ","9, ","37, ","34, ","15, ","29, ","41, "]
+age = ["19, ","42, ","23, ","10, ","9, ","37, ","34, ","15, ","29, ","41, ", "23, "]
 favourite_colour = ["blue, ","red, ","violet, ","green, ","yellow, ","orange, "]
 favourite_fruit = ["banana, ","apple, ","durian, ","grapes, ","mango, "]
+print(age.count("23, "))
 print(favourite_colour[1])
 print(favourite_colour[1:4])
 print(len(favourite_colour))
